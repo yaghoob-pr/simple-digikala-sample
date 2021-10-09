@@ -124,7 +124,6 @@ font-family: 'IranYekan';
 }
 
 .ad-carousel {
-    margin: 1rem 10rem;
     display: flex;
     flex-direction: row;
     height: 430px;
@@ -135,10 +134,11 @@ font-family: 'IranYekan';
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    margin-left: 10px;
 }
 
 .ad-container .ad-ctr{
-    width: 30rem;
+    width: 30em;
     height: 220px;
     
 }
@@ -157,10 +157,22 @@ font-family: 'IranYekan';
     height: 220px;
     background: #777;
     height: 425px;
-    width: 70rem;
-    margin: auto 10px;
+    margin: auto 0px;
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 70em;
+    margin-left: 20px;
 }
 
 .carousel {
     height: 100%;   
+    margin: 0 10px
+}
+
+.cr-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
